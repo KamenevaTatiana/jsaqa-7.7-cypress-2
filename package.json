@@ -1,0 +1,15 @@
+{
+  "name": "jsaqa-7.7-cypress-2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Tatiana Kameneva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.15.0"
+  }
+}

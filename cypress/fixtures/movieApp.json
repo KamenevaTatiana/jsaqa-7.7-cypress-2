@@ -1,0 +1,6 @@
+{
+  "adminEmail": "qamid@qamid.ru",
+  "adminPassword": "qamid",
+  "tomorrow": "a:nth-child(2)",
+  "filmSection": ".movie"
+}
