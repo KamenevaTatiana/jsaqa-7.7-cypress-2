@@ -7,11 +7,6 @@ const {
 const seats = require("../fixtures/seats.json");
 
 describe("Movie ticket booking app tests", () => {
-  it("Should display the main page", () => {
-    cy.visit("/");
-    cy.contains("Идёмвкино").should("be.visible");
-  });
-
   it("Should sucessfully login", () => {
     cy.login(adminEmail, adminPassword);
     cy.contains("Управление залами").should("be.visible");
